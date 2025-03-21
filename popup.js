@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let noteField = document.getElementById("note");
     let saveButton = document.getElementById("save");
-    let deleteButtonButton = document.getElementById("delete");
+    let deleteButton = document.getElementById("delete");
 
 
     // Load saved note
