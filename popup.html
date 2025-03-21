@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Notes</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <h2>Quick Notes</h2>
-    <textarea id="note" placeholder="Write your note here..."></textarea>
-    <button id="save">Save Note</button>
-    <button id="delete">Delete Note</button>  
+    <div class="notepad">
+        <div class="pin"></div>
+        <h2>Quick Notes</h2>
+        <div class="note-container">
+            <span class="heart">❤</span>
+            <textarea id="note1" ></textarea>
+        </div>
+        <div class="note-container">
+            <span class="heart">❤</span>
+            <textarea id="note2" ></textarea>
+        </div>
+        <div class="note-container">
+            <span class="heart">❤</span>
+            <textarea id="note3" ></textarea>
+        </div>
+        <div class="note-container">
+            <span class="heart">❤</span>
+            <textarea id="note4"></textarea>
+        </div>
+        <button id="save">Save Notes</button>
+        <button id="delete">Delete Notes</button>
+    </div>
     <script src="popup.js"></script>
 </body>
 </html>
