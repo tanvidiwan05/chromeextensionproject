@@ -16,4 +16,12 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Note saved!");
         });
     });
+
+     // Delete note on button click
+     deleteButton.addEventListener("click", function() {
+        chrome.storage.sync.remove("note", function() {
+            noteField.value = ""; // Clear the text area
+            alert("Note deleted!");
+        });
+    });
 });
